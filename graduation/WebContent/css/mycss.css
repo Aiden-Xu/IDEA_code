@@ -1,0 +1,50 @@
+body {
+	background-image: url(/images/1.jpg);
+}
+
+.div2 {
+	border: 1px solid red;
+	float: left;
+}
+
+.div3 {
+	border: 1px solid red;
+	float: right;
+}
+
+.div1 {
+    background-image: url(images/1.jpg);
+	width: 800px;
+	height: 580px;
+	margin: auto;
+}
+
+marquee {
+	font-size: 30px;
+	color: #82CD4B;
+}
+
+table {
+	position: relative;
+	top: 50px;
+	left: 50px;
+}
+
+input {
+	border: 1px solid #82CD4B;
+	border-radius: 10px;
+}
+
+input:FOCUS {
+	border-color: purple;
+}
+
+.td1 {
+	color: gray;
+	font-style: italic;
+}
+
+.td3 {
+	color: navy;
+	font-style: italic;
+}

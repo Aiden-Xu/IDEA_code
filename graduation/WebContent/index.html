@@ -1,0 +1,39 @@
+<!--文件头开始-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="许孟皓的大学设备管理系统">
+<title>大学设备管理系统</title>
+<script src="jquery-3.1.1.min.js"></script>
+<script> 
+$(document).ready(function(){
+    var div=$("div");  
+    div.animate({height:'300px',opacity:'0.4'},"slow");
+    div.animate({width:'300px',opacity:'0.8'},"slow");
+    div.animate({height:'200px',opacity:'0.4'},"slow");
+    div.animate({width:'200px',opacity:'0.8'},"slow");
+    div.animate({fontSize:'3em'},"slow",function(){
+    	//alert("是否现在登录系统");
+    });
+  $("button").click(function(){
+	  window.location.assign( "login.html"); 
+  });
+});
+</script> 
+<style type="text/css">
+p{
+color: red;
+}
+</style>
+</head>
+
+<body background="images/red.jpg" style="background-repeat:no-repeat; background-size:cover"><center>
+<img alt="TUYT" src="images/tyut.png">
+<div style="background:#B2D8E5;height:200px;width:200px;;"><p>设备管理系统<br>xmh<p></div>
+<button>登录系统</button>
+</center>
+</body>
+</html>
+
